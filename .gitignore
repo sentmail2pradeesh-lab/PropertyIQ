@@ -1,0 +1,20 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+*.log
+node_modules/
+dist/
+# Never commit client photos or model weights
+data/
+uploads/
+*.CR2
+*.CR3
+*.NEF
+*.ARW
+*.DNG
+*.pt
+*.safetensors
